@@ -1,13 +1,15 @@
 /**
  * Created by Paul on 3/26/2016.
  */
+
 var express = require('express');
 var router = express.Router();
-var request = require('request');
+// var request = require('request');
 var config = require('../properties/settings.json');
 
 /* Default landing page for the URL shortener */
 router.get('/', function(req, res, next){
+    /*
    res.render('urlshortener',
        {
            description: 'URL Shortener',
@@ -23,10 +25,12 @@ router.get('/', function(req, res, next){
                }
            ]
        });
+       */
 });
 
 /* POST a URL to create a short URL */
 router.get('/shorten/', function(req, res, next){
+    /*
     var longUrl = req.query['url'];
     var postUrl = config.apis.googleShortenerV1 + '?key=' + config.keys.google;
     request.post(
@@ -47,6 +51,7 @@ router.get('/shorten/', function(req, res, next){
             }
         }
     );
+    */
 });
 
 /* POST a URL to create a short URL, and retrieve the full response */
