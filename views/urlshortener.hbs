@@ -1,0 +1,14 @@
+<h1>{{description}}</h1>
+{{#if usage}}
+    <p>{{usagehead}}</p>
+    {{#usage}}
+        <li><i>{{label}}</i> <strong>{{api}}</strong></li>
+    {{/usage}}
+{{/if}}
+{{#if simpleresponse}}
+    <i>{{label}}:</i> <strong>{{shorturl}}</strong>
+{{/if}}
+{{#if fullresponse}}
+    <p><i>{{longlabel}}:</i> <strong>{{longurl}}</strong></p>
+    <p><i>{{shortlabel}}:</i> <strong>{{shorturl}}</strong></p>
+{{/if}}

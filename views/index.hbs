@@ -1,0 +1,25 @@
+<div id="home-index" class="col-md-8">
+    <h1>{{mainPostTitle}}</h1>
+    {{{mainPostContent}}}
+    <div class="row clearfix">
+        <div class="col-md-12">
+            <h3>Recent Articles</h3>
+            <div class="col-md-4">
+                <h4><a href="#">{{columnFirstTitle}}</a> </h4>
+                <a href="{{columnFirstNavLink}}/{{columnFirstPreviousId}}"><img class="img-thumbnail img-circle img-responsive" alt="No Image To Display" src="{{columnFirstThumb}}" /></a>
+                <p><a href="#">Get this article, and return here {{columnFirstSummary}}</a></p>
+            </div>
+            <div class="col-md-4">
+                <h4><a href="#">{{nextPostTitle}}</a> </h4>
+                <a href="{{columnSecondNavLink}}/{{columnSecondPreviousId}}"><img class="img-thumbnail img-circle img-responsive" alt="No Image To Display" src="{{nextPostThumb}}" /></a>
+                <p><a href="#">{{{nextPostSummary}}}</a></p>
+            </div>
+            <div class="col-md-4">
+                <h4><a href="#">{{lastPostTitle}}</a> </h4>
+                <a href="{{columnThirdNavlink}}/{{columnThirdPreviousId}}"><img class="img-thumbnail img-circle img-responsive" alt="No Image To Display" src="{{lastPostThumb}}" /></a>
+                <p><a href="#">{{{lastPostSummary}}}</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div data-nextPageTokens={{nextPageTokens}} data-pageArticles={{pageArticles}}></div>

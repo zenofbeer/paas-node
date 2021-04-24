@@ -1,0 +1,67 @@
+<h1 class="text-center"><a href="{{bloghomelink}}">Go Back Home</a></h1>
+<div class="jumbotron">
+    <h2>
+        {{mainTitle}}
+    </h2>
+    <p>
+        {{{mainContent}}}
+    </p>
+    <p>
+        <a class="btn btn-primary btn-large" href="#">Learn more</a>
+    </p>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- ResponsiveBanner01 -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-6287349983602115"
+         data-ad-slot="3414534984"
+         data-ad-format="auto"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        {{#if columnFirstNavlink}}
+        <div class="thumbnail">
+            <a href="{{columnFirstNavlink}}/{{columnFirstPreviousId}}"><img alt="Bootstrap Thumbnail First" class="img-circle" src="{{columnFirstThumb}}" />
+            <div class="caption">
+                <h3>
+                    {{columnFirstTitle}}
+                </h3>
+                <p>
+                    {{columnFirstSummary}}
+                </p>
+            </div></a>
+        </div>
+        {{/if}}
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <a href="{{columnSecondNavlink}}/{{columnSecondPreviousId}}">
+            <img alt="Bootstrap Thumbnail Second" class="img-circle" src="{{columnSecondThumb}}" />
+            <div class="caption">
+                <h3>
+                    {{columnSecondTitle}}
+                </h3>
+                <p>
+                    {{columnSecondSummary}}
+                </p>
+            </div></a>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <a href="{{columnThirdNavlink}}/{{columnThirdPreviousId}}">
+            <img alt="Bootstrap Thumbnail Third" class="img-circle" src="{{columnThirdThumb}}" />
+            <div class="caption">
+                <h3>
+                    {{columnThirdTitle}}
+                </h3>
+                <p>
+                    {{columnThirdSummary}}
+                </p>
+            </div></a>
+        </div>
+    </div>
+</div>

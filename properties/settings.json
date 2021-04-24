@@ -1,0 +1,17 @@
+{
+  "keys":{
+    "google":"AIzaSyCqfuDVPAhdwyu-KYoToNbu6NN5Vp3M3fs"
+  },
+  "apis":{
+    "googleShortenerV1":"https://www.googleapis.com/urlshortener/v1/url"
+  },
+  "globalstrings":{
+    "titlePaulChristensenNet" : "PaulChristensen.net",
+    "descriptionPaulChristensenNet" : "Programming, Home Brew, and Random Adventures in the Pacific Northwest"
+  },
+  "blogs":{
+    "ZenOfBeer" : {
+      "id" : "2431897220898914062"
+    }
+  }
+}
